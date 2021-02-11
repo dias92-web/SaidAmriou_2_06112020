@@ -235,7 +235,7 @@ a
     flex-direction: column;
     width: 65%;
     background-color: #F2F2F2;
-    padding: 30px 14px;
+    padding: 30px 45px;
     border-radius: 10px;
 }
 
@@ -259,6 +259,13 @@ width: 30%;
 box-shadow: 0 5px 10px silver;
 }
 
+.show {
+    margin-top: 34px;
+    font-weight: 800;
+    color: black;
+    font-size: 16px;
+}
+
 #exception1,#exception2
 {
  margin: 2% 3.5%;
@@ -269,7 +276,11 @@ box-shadow: 0 5px 10px silver;
 {
     display: flex;
     flex-wrap:wrap;
-    margin-left: 35px;
+}
+
+.populaires a 
+{
+    margin: 40px;
 }
 
 .populaires img
@@ -307,16 +318,12 @@ margin-bottom: 52px;
  margin-left: 30px;
  padding: 0 59px;
 }
-.populaires a
-{
-    margin:40px;
-}
 
 .ensemble
 {
  display: flex;
  justify-content: space-between;
- padding: 25px 16px 0 25px;
+ padding: 25px 0 0 0;
 }
 
 .ensemble i
@@ -347,7 +354,6 @@ margin-bottom: 52px;
 
 #fleche
 {
-    margin-right: 29px;
     font-size: 22px;
 }
 
@@ -615,6 +621,11 @@ h3
         margin:25px 30px 25px 51px;
     }
 
+    .show
+     {
+        margin: 0 0 0 53px;
+    }
+
     #lamer
     {
         margin-left: 27px;
@@ -638,19 +649,9 @@ h3
         padding: 0 151px;
     }
 
-    .populaires h2
-    {
-        margin-left: 113px;
-    }
-
     .populaires a h2
     {
         margin: 0;
-    }
-
-    #fleche
-    {
-        margin-right: 124px;
     }
 
     .populaires img
@@ -860,6 +861,10 @@ h3
         margin-right: 56px;
     }
 
+    .show {
+        margin: 25px 18px;
+    }
+
     .locations
     {
         flex-direction: column-reverse;
@@ -869,7 +874,7 @@ h3
     .populaires
     {
         margin-bottom: 21px;
-        padding-bottom:  0 10px 15px 10px;
+        padding:  0 10px 15px 10px;
         width: 100%;
         border-radius: 0;
     }
@@ -884,6 +889,7 @@ h3
         margin: 0;
     }
 
+    
     
     .populaires img
     {
@@ -946,7 +952,7 @@ h3
 
     .loisirs
       {   
-        margin-bottom: 0;
+        margin: 60px 0 0 0;
         padding:  0;
       }
 
